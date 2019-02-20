@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    BRANDS.delete_if{item| 
+    BRANDS = BRANDS.
   end
 
   def cobble
